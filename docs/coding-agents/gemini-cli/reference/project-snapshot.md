@@ -4,7 +4,7 @@
 
 - Snapshot UTC: 2026-01-15T16:34:52Z
 - Snapshot source ref (commit or tag): dfb7dc706
-- Snapshot cadence (e.g., every 3 days): every 3 days (or manual dispatch)
+- Snapshot cadence (e.g., every 3 days): manual
 - Snapshot scope (what changed triggers a snapshot): doc updates in `docs/coding-agents/gemini-cli/`
 
 ## 1. Doc set (existing artifacts)

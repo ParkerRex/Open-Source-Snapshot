@@ -4,7 +4,7 @@
 
 - Snapshot UTC: 2026-01-15T15:28:55Z
 - Snapshot source ref (commit or tag): 44d24d42b
-- Snapshot cadence (e.g., every 3 days): every 3 days (or manual dispatch)
+- Snapshot cadence (e.g., every 3 days): manual
 - Snapshot scope (what changed triggers a snapshot): doc updates in `docs/coding-agents/opencode/`
 
 ## 1. Doc set (existing artifacts)

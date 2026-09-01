@@ -4,7 +4,7 @@
 
 - Snapshot UTC: 2026-01-15T16:36:41Z
 - Snapshot source ref (commit or tag): 963abc190
-- Snapshot cadence (e.g., every 3 days): every 3 days (or manual dispatch)
+- Snapshot cadence (e.g., every 3 days): manual
 - Snapshot scope (what changed triggers a snapshot): doc updates in `docs/coding-agents/cline/`
 
 ## 1. Doc set (existing artifacts)

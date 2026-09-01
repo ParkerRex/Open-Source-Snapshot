@@ -1,5 +1,5 @@
 Project name: Open Source Snapshot
-One liner: An automated snapshot-and-docs workspace for tracking and studying fast-moving open-source coding-agent projects.
+One liner: A snapshot-and-docs workspace for tracking and studying fast-moving open-source coding-agent projects.
 Stack: Git, Git submodules, GitHub Actions, Markdown docs, Claude Code GitHub Action, shell scripting.
 Problem: Keeping up with rapid upstream changes across multiple coding-agent repos is high effort, so this project centralizes updates and maintains structured docs for easier learning and comparison.
 
@@ -14,11 +14,8 @@ Starting with agentic coding tools, but planning to expand to other categories o
 Each project gets a **snapshot**: submodules pointing to the upstream repos, plus architecture breakdowns and documentation I maintain.
 
 - Submodules live under `src/coding-agents/` and point to upstream repos
-- GitHub Action runs every 3 days to pull latest changes
-- If a submodule has 5+ new commits, Claude Code incrementally updates its manual docs under `docs/coding-agents/<submodule>/` using [.prompts/doc-gen-manual.md](.prompts/doc-gen-manual.md)
-- Docs commit directly to main
-
-Manual trigger: Actions → "Update submodules & docs" → Run workflow
+- Snapshots and docs are updated manually as needed
+- [.prompts/doc-gen-manual.md](.prompts/doc-gen-manual.md) defines the process for incrementally updating docs under `docs/coding-agents/<submodule>/`
 
 Open to suggestions on how to make this more useful—ideas and PRs welcome.
 

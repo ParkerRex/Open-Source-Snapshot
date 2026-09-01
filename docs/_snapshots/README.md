@@ -1,8 +1,7 @@
 # Project Doc Snapshots
 
-This folder stores timestamped snapshots of the doc set before each update.
-Snapshots are created by the `Update submodules & docs` GitHub workflow when
-docs change.
+This folder stores manually created, timestamped snapshots of a doc set before
+an update.
 
 ## Layout
 

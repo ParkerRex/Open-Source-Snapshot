@@ -4,7 +4,7 @@
 
 - Snapshot UTC: 2026-01-15T15:11:45Z
 - Snapshot source ref (commit or tag): e1447c300
-- Snapshot cadence (e.g., every 3 days): every 3 days (or manual dispatch)
+- Snapshot cadence (e.g., every 3 days): manual
 - Snapshot scope (what changed triggers a snapshot): doc updates in `docs/coding-agents/codex/`
 
 ## 1. Doc set (existing artifacts)
